@@ -217,25 +217,25 @@ const projects = [
     source_code_link: "https://github.com/Sudharsan-T/Customer-Segmentation-and-Product-Recommendation",
   },
   {
-    name: "GearXpert",
+    name: "Election Analysis Dashboard Using PowerBI",
     description:
-      "GearXpert is your ultimate destination for premium auto parts and accessories, Whether you're an automobile enthusiast or a professional, find everything you need to upgrade, repair.",
+      "This dashboard provides a comprehensive analysis of the 2024 Indian General Election results. It helps users explore election trends, party performance, and voter dynamics at national, state, and constituency levels.",
     tags: [
       {
-        name: "react",
+        name: "powerbi",
         color: "blue-text-gradient",
       },
       {
-        name: "emailJs",
+        name: "data visualization",
         color: "green-text-gradient",
       },
       {
-        name: "Gsap",
+        name: "election analysis",
         color: "pink-text-gradient",
       },
     ],
     image: gearXpert,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Sudharsan-T/End-To-End-2024-Election-Analysis",
   },
   {
     name: "GoGroove-Ecommerce",

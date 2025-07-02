@@ -8,14 +8,10 @@ import {
   menu,
   close,
   css,
-  gearXpert,
-  project2,
-  project3,
   mysql,
   express,
   aws,
   mui,
-  
   gsap,
   framer,
   figma,
@@ -31,6 +27,9 @@ import {
   firstTestimonial,
   secondTestimonial,
   thirdTestimonial,
+  electionAnalysis,
+  proj1,
+  proj3,
 } from '../assets'
 
 
@@ -213,7 +212,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: project2,
+    image: proj1,
     source_code_link: "https://github.com/Sudharsan-T/Customer-Segmentation-and-Product-Recommendation",
   },
   {
@@ -234,33 +233,27 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: gearXpert,
+    image: electionAnalysis,
     source_code_link: "https://github.com/Sudharsan-T/End-To-End-2024-Election-Analysis",
   },
   {
-    name: "GoGroove-Ecommerce",
-    description:
-      "Go-Groove is your ultimate destination for premium products across various categories. Whether you're a savvy shopper or a professional, enhance, and simplify your lifestyle—all in one place!",
+    name: "DRIFA-Net: A Dual Attention Approach for Medical Image Fusion",
+    description: "DRIFA-Net is a dual attention-based multimodal model for disease classification. It combines multi-branch and multimodal fusion attention to improve feature learning and generalization. Using Monte Carlo dropout for uncertainty estimation, it boosts diagnostic accuracy and reliability across five medical datasets, supporting better clinical decisions.",
     tags: [
       {
-        name: "react",
+        name: "deep learning",
         color: "blue-text-gradient",
       },
       {
-        name: "express",
-        color: "white-text-gradient",
-      },
-      {
-        name: "node",
+        name: "multimodal",
         color: "green-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: "medical AI",
+        color: "pink-text-gradient",
       },
     ],
-    image: project3,
-    source_code_link: "https://github.com/",
+    image: proj3,
   },
 ];
 

@@ -1,4 +1,3 @@
-
 import {
   logo,
   backend,
@@ -197,30 +196,25 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Tekisky Mart",
+    name: "Customer Segmentation and Product Recommendation",
     description:
-      "Tekisky Mart is a web-based platform that allows users to search, explore, and purchase a wide range of products from various providers, offering a seamless and efficient shopping experience.",
+      "InsightLens is a data analysis and machine learning project that segments customers based on purchasing behavior. It uses clustering and outlier detection to group customers and provide personalized product recommendations, helping businesses enhance customer engagement and increase sales.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "white-text-gradient",
-      },
-      {
-        name: "node",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "mongodb",
+        name: "machine learning",
         color: "green-text-gradient",
       },
- 
+      {
+        name: "data analysis",
+        color: "pink-text-gradient",
+      },
     ],
     image: project2,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Sudharsan-T/Customer-Segmentation-and-Product-Recommendation",
   },
   {
     name: "GearXpert",

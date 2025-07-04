@@ -57,27 +57,35 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Full-Stack Developer",
-    icon: web,
-  },
-  {
-    title: "Frontend Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
+    title: "Data Engineer",
     icon: backend,
   },
   {
-    title: "Ui UX Designer",
+    title: "ML Engineer",
+    icon: web,
+  },
+  {
+    title: "Data Analyst",
+    icon: mobile,
+  },
+  {
+    title: "AI/ML Researcher",
     icon: creator,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Python",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
+  },
+  {
+    name: "Docker",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original-wordmark.svg",
+  },
+  {
+    name: "MySql",
+    icon: mysql,
   },
   {
     name: "CSS 3",
@@ -138,11 +146,6 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "MySql",
-    icon: mysql,
-  },
-
-  {
     name: "git",
     icon: git,
   },
@@ -152,16 +155,29 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full-Stack Developer",
-    company_name: "Tekisky",
-    icon: tekisky,
+    title: "Research Intern",
+    company_name: "IEEE Publication – Under the guidance of Dr. S. Maheswari",
+    icon: creator,
     iconBg: "#383E56",
-    date: "Jan 2023 - present",
+    date: "",
     points: [
-      "Developing and maintaining web applications using MERN technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked on the development of DRIFA-Net, a deep learning framework for multimodal medical image classification.",
+      "Designed and implemented dual attention modules for robust feature fusion and uncertainty quantification.",
+      "Achieved 2–10% performance improvement over state-of-the-art methods across five benchmark datasets (CT, MRI, dermoscopy, pap smear).",
+      "Published the research paper titled 'Enhancing Multimodal Fusion Learning for Medical Imaging with Dual Attention and Uncertainty Quantification' in IEEE."
+    ],
+  },
+  {
+    title: "Content Writer",
+    company_name: "Newsletter : Professional Failures",
+    icon: web,
+    iconBg: "#383E56",
+    date: "",
+    points: [
+      "Managed a newsletter focused on real-world professional setbacks and the growth that follows.",
+      "Authored insightful articles blending storytelling with actionable takeaways to engage a diverse audience.",
+      "Built and nurtured a reader base by maintaining a consistent publishing schedule and authentic voice.",
+      "Analyzed audience feedback and engagement to iteratively improve content quality and reader retention."
     ],
   },
 ];

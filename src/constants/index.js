@@ -84,73 +84,61 @@ const technologies = [
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original-wordmark.svg",
   },
   {
-    name: "MySql",
+    name: "MySQL",
     icon: mysql,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "gsap",
-    icon: gsap,
-  },
-  {
-    name: "framer",
-    icon: framer,
-  },
-
- 
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Material Ui",
-    icon: mui,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "Express Js",
-    icon: express,
   },
   {
     name: "AWS",
     icon: aws,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Google Cloud Platform",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg",
   },
   {
-    name: "git",
-    icon: git,
+    name: "Pandas",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg",
   },
- 
-
+  {
+    name: "Apache Kafka",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apachekafka/apachekafka-original.svg",
+  },
+  {
+    name: "Jupyter",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original.svg",
+  },
+  {
+    name: "PyTorch",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg",
+  },
+  {
+    name: "Linux",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg",
+  },
+  {
+    name: "Apache Airflow",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apacheairflow/apacheairflow-original.svg",
+  },
+  {
+    name: "NumPy",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg",
+  },
+  {
+    name: "Streamlit",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/streamlit/streamlit-original.svg",
+  },
+  {
+    name: "Apache Spark",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apachespark/apachespark-original.svg",
+  },
+  {
+    name: "TensorFlow",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg",
+  },
+  {
+    name: "scikit-learn",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg",
+  },
 ];
 
 const experiences = [
@@ -185,26 +173,26 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Huzaif proved me wrong.",
-    name: "MD Mustaqeem",
-    designation: "Ecommerce",
-    company: "QuickMart",
+      "Sudharsan made complex problems look easy with his clear thinking and technical depth during our IEEE research.",
+    name: "Abdul Hashim",
+    designation: "Research Intern",
+    company: "IEEE Project",
     image: firstTestimonial,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Huzaif does.",
-    name: "Abdul Raheman",
-    designation: "Ecommerce Business",
-    company: "justbuyz",
+      "Sudharsan stands out for his research focus and sharp thinking. A dependable contributor throughout our IEEE work.",
+    name: "Dr. S. Maheswari",
+    designation: "Assistant Professor & IEEE Research Guide",
+    company: "IEEE Project",
     image: secondTestimonial,
   },
   {
     testimonial:
-      "After Huzaif optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "James Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "Sudharsan combines creativity with sharp execution. A valuable partner in our innovation efforts.",
+    name: "Azfer Mirza",
+    designation: "Founder",
+    company: "Professional Failures",
     image: thirdTestimonial,
   },
 ];
@@ -232,9 +220,9 @@ const projects = [
     source_code_link: "https://github.com/Sudharsan-T/Customer-Segmentation-and-Product-Recommendation",
   },
   {
-    name: "Election Analysis Dashboard Using PowerBI",
+    name: "India General election results - 2024 overview analysis",
     description:
-      "This dashboard provides a comprehensive analysis of the 2024 Indian General Election results. It helps users explore election trends, party performance, and voter dynamics at national, state, and constituency levels.",
+      "This dashboard provides a comprehensive analysis of the 2024 Indian General Election results. It helps users explore voting patterns, party performance, and voter behavior across national, state, and constituency levels, offering insights to understand political trends and regional dynamics.",
     tags: [
       {
         name: "powerbi",
@@ -253,8 +241,8 @@ const projects = [
     source_code_link: "https://github.com/Sudharsan-T/End-To-End-2024-Election-Analysis",
   },
   {
-    name: "DRIFA-Net: A Dual Attention Approach for Medical Image Fusion",
-    description: "DRIFA-Net is a dual attention-based multimodal model for disease classification. It combines multi-branch and multimodal fusion attention to improve feature learning and generalization. Using Monte Carlo dropout for uncertainty estimation, it boosts diagnostic accuracy and reliability across five medical datasets, supporting better clinical decisions.",
+    name: "A Dual Attention Approach for Medical Image Fusion",
+    description: "Dual attention-based multimodal model for disease classification. It combines multi-branch and multimodal fusion attention to improve feature learning and generalization. Using Monte Carlo dropout for uncertainty estimation, it boosts diagnostic accuracy and reliability across five medical datasets, supporting better clinical decisions.",
     tags: [
       {
         name: "deep learning",
